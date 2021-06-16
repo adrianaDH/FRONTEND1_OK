@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header-superior{
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+#header-superior nav{
+    float: right;
+}
+
+#header-superior p{
+    float: left;
+}
+
+#header-superior a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#header-estatico{
+    background-color: #F0A83E;
+    width: 100%;
+    padding: 20px;
+}
+
+#header-estatico #logo{
+    float: left;
+}
+
+#header-estatico nav{
+    float: right;
+}
+
+#header-estatico nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#header-estatico nav a img{
+    padding-right: 5px;
+}
+
+#banner{
+    background: url(../img/banner_background.png);
+    height: 500px;
+    background-size: cover;
+}
+
+#banner div{
+    text-align: center;
+    width: 350px;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    height: auto;
+}
+
+#banner h3{
+    background: white;
+    font-size: 30px;
+    width: 340px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#banner p{
+    margin: 10px;
+    color: #3C2313;
+    font-size: 16px;
+}
+
+#banner a {
+    background: #F0A83E;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+#productos-destacados{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#productos-destacados h3{
+    font-size: 40px;
+    margin: 30px
+}
+
+#productos-destacados #resumen-productos{
+    color: #666666;
+    margin: 30px;
+}
+
+#productos-destacados .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor article{
+    margin: 20px;
+    background: #FBFAF6;
+}
+
+.nombre-producto{
+    color: #3C2313;
+    font-size: 15px;
+}
+
+.precio{
+    font-size: 15px;
+    color: #F0A83E;
+}
+
+#formulario{
+    text-align: center;
+    margin: 50px;
+}
+
+#formulario h3{
+    color: #3C2313;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#formulario .txt-celda{
+    width: 400px;
+    margin: 5px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    background: #3C2313;
+}
+
+#formulario .txt-celda::placeholder{
+    color: white;
+    font-size: 9px;
+}
+
+#formulario .boton-reset{
+    width: 120px;
+    font-size: 16px;
+    margin: 35px 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background: #8A8787;
+}
+
+#formulario .boton-enviar{
+    width: 120px;
+    font-size: 16px;
+    margin: 35px 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background: #F0A83E;
+}
+
+#form-suscripcion{
+    background: #F0A83E;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+#form-suscripcion h3{
+    font-size: 20px;
+    margin: 13px 10px;
+}
+
+#form-suscripcion div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+#form-suscripcion form{
+    margin-left: 40%;
+}
+
+
+#form-suscripcion form .txt-celda{
+    width: 271px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+#form-suscripcion form .boton-suscrip{
+    width: 70px;
+    height: 34px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #3C2313;
+    color: white;
+    font-size: 9px;
+}
+
+
+#info-adicional{
+    background: #3C2313;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.iconos-info{
+    margin: 20px;
+}
+
+#info-adicional .contenedor{
+    display: flex;
+}
+
+
+#info-adicional .contenedor div h3{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#info-adicional .contenedor div p{
+    font-size: 10px;
+    color: #8A8787;
+}
+
+#contenedor-logo2{
+    margin: auto;
+    margin-right: 10%;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
