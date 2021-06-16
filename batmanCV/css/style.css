@@ -1,0 +1,40 @@
+.fondoHead{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    height: 60px;
+}
+
+h1, 
+h2{
+    color:  #005677;
+    background-color: #C4C4C4;
+}
+
+.datosPer{
+    padding-left: 325px;
+    padding-right: 274px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.cur{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.piePagina {
+    color: white;
+    background-color: #005677;
+    text-align: center;
+    font-size: 20px;
+}
+
+li{
+    line-height: 23px;
+}
